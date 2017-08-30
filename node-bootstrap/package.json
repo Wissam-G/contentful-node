@@ -1,0 +1,19 @@
+{
+	"name": "website-using-express",
+	"version": "0.0.1",
+	"scripts": {
+		"start": "node Server.js",
+		"dev": "nodemon index.js"
+	},
+	"config": {
+		"accessToken": "c2d67f95f4774328d2723c5dc49d217a7a96d579a72ec13f8a56ad965f7e4061",
+		"space": "irkvjm4eqnex"
+	},
+	"dependencies": {
+		"express": "latest",
+		"contentful": "^4.3.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.11.0"
+	}
+}
